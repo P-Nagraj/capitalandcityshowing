@@ -1,0 +1,104 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bg-container {
+  background-color: #90b6a8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  width: 100%;
+  max-width: 550px;
+   border: 2px solid rgba(255,255,255,0.1);
+ 
+}
+.card-container:hover{
+ 
+  background: rgba(255, 255, 255, 0.15);
+  border-left: 4px solid #1101ff;
+  border-radius: 20px;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+
+}
+.heading {
+  color: #1e293b;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 34px;
+}
+
+.select-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.select {
+  border-right: 1px solid #9e077d;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  outline: none;
+  cursor: pointer;
+  margin-right: 14px;
+  transition: 0.5s;
+}
+.select:hover {
+  box-shadow: 0 0 15px #1101ff;
+}
+.description {
+  color: #323f4b;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.country {
+  color: #1e293b;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    padding: 40px;
+  }
+
+  .heading {
+    font-size: 36px;
+  }
+
+  .select {
+    font-size: 16px;
+    padding: 10px 14px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .country {
+    font-size: 32px;
+  }
+} 
+
