@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/capitalandcityshowing/static/css/main.0368801b.css",
+    "main.js": "/capitalandcityshowing/static/js/main.10cc982c.js",
+    "static/js/453.4b32d372.chunk.js": "/capitalandcityshowing/static/js/453.4b32d372.chunk.js",
+    "index.html": "/capitalandcityshowing/index.html",
+    "main.0368801b.css.map": "/capitalandcityshowing/static/css/main.0368801b.css.map",
+    "main.10cc982c.js.map": "/capitalandcityshowing/static/js/main.10cc982c.js.map",
+    "453.4b32d372.chunk.js.map": "/capitalandcityshowing/static/js/453.4b32d372.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0368801b.css",
+    "static/js/main.10cc982c.js"
+  ]
+}
